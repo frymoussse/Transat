@@ -1,0 +1,97 @@
+/*******************************entete*************************************
+***************************************************************************
+***************************************************************************
+****************************************************************************/
+* {
+  box-sizing: border-box; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.container {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto; }
+
+/*******************************header********************************/
+header {
+  background-repeat: no-repeat;
+  background-image: url("photos/header.png");
+  overflow: hidden;
+  background-size: cover;
+  background-size: 100%; }
+
+/*******************************header div ***********************************/
+header ul {
+  display: flex;
+  flex-direction: column; }
+
+.menuglobal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 19em; }
+
+.menu ul {
+  display: flex;
+  flex-direction: column; }
+
+li a {
+  color: #363335;
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+/*******************************body homepage********************************/
+body {
+  background-color: #47A1C4; }
+
+h1 {
+  color: #363335;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+  margin-top: 0; }
+
+/*******************************article homepage********************************/
+.homeleft {
+  margin-left: 2em; }
+
+fieldset {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 2em;
+  border: solid #EAEBE3 0.50em;
+  font-size: 1em;
+  font-weight: bold; }
+
+.last {
+  margin-bottom: 5em; }
+
+legend {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+/************************************transat***************************/
+.left {
+  margin-left: 2em; }
+
+/*******************************footer********************************/
+footer {
+  margin-top: 3em; }
+  footer img {
+    background-size: cover;
+    width: 100%; }
+
+/**********************budget*********************************/
+.budleft {
+  margin-left: 3em; }
+
+/*# sourceMappingURL=style.css.map */
